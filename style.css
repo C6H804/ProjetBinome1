@@ -1,3 +1,6 @@
 .taille_texte {
     width: 300px;
 }
+p {
+    text-align: justify;
+}
