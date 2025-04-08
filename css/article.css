@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     margin: 0 25px;
-   
-    
+
+
 }
 
 .corps_texte-container .corps_texte {
@@ -14,8 +14,8 @@
     margin-right: 45px;
     font-size: 20px;
     padding: 45px;
-   
-    
+
+
 }
 
 #pianiste {
@@ -23,29 +23,69 @@
     margin: 0 auto;
 }
 
-p{
+p {
     margin-bottom: 45px;
 }
 
-.corps_texte>h2{
-   font-weight: bolder;
-   margin-bottom: 45px;
-   font-size: 34px;
+.corps_texte>h2 {
+    font-weight: bolder;
+    margin-bottom: 45px;
+    font-size: 34px;
 }
 
 #pub {
     display: block;
     margin: 0 auto;
 }
-.commentaires{
+
+.commentaires {
     display: block;
     margin: 0 auto;
+    text-align: center;
 }
 
 .commentaires>h3 {
-    font-weight: bolder ;
-    margin-bottom: 45px;
+    font-weight: bolder;
+    margin-bottom: 40px;
     font-size: 30px;
 
 }
 
+#commentaire_bleu {
+    background-color: aqua;
+    width: 63%;
+    height: 85px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 40px;
+
+}
+
+form {
+    width: 63%;
+    border: solid 1px black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.formulaire>input {
+    display: block;
+    text-align: left;!important
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.colonne_forms>input {
+    text-align: left;
+}
+
+.colonne_forms {
+    display: block;
+    margin: 0 auto;
+    width: 63%;
+}
+
+.colonne_checkbox {
+    margin-top: 40px;
+}
