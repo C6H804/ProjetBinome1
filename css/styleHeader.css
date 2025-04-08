@@ -5,17 +5,15 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
-    flex-grow: 4;
 }
 
 .menu-logo {
     background-color: var(--color-nav-off);
-    padding: 1vw 3vw 1vw 3vw;
+    padding: 1vw 2vw 1vw 2vw;
 }
 
 .menu-logo>img {
-    width: 111px;
-    height: 93px;
+    width: fit-content;
     color: #fff;
 }
 
@@ -40,7 +38,7 @@
 .menu-content>ul>li>a {
     color: #fff;
     font-family: 'Lato';
-    font-size: larger;
+    font-size: x-large;
     text-decoration: none;
 }
 

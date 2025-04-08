@@ -1,6 +1,7 @@
 @import url(theme.css);
 @import url(article.css);
 @import url(styleHeader.css);
+@import url(styleNav.css);
 
 body {
     width: 100%;
