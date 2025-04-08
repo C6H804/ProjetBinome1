@@ -39,9 +39,10 @@ p {
 }
 
 .commentaires {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .commentaires>h3 {
@@ -51,19 +52,18 @@ p {
 
 }
 
-#commentaire_bleu {
-    background-color: aqua;
-    width: 63%;
-    height: 85px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 30px;
-    margin-bottom: 40px;
+.commentaire_bleu {
+    
+    background-color: rgba(0,255,255,0.5);
+    width: fit-content;
+    /* padding: 60%; */
+    
+
 
 }
-
+/* 
 form {
-    width: 63%;
+    width: 100%;
     border: solid 1px black;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -71,8 +71,8 @@ form {
 
 .formulaire>input {
     display: block;
-    text-align: left;!important
-    width: 100%;
+    text-align: left;
+    important width: 100%;
     margin-bottom: 20px;
 }
 
@@ -88,4 +88,4 @@ form {
 
 .colonne_checkbox {
     margin-top: 40px;
-}
+} */
