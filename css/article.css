@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     margin: 0 25px;
-    background-color: grey;
+   
     
 }
 
@@ -10,7 +10,6 @@
     max-width: 1115px;
     padding: 25px;
     text-align: justify;
-    background-color: azure;
     margin-left: 45px;
     margin-right: 45px;
     font-size: 20px;
@@ -38,3 +37,4 @@ p{
     display: block;
     margin: 0 auto;
 }
+
