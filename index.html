@@ -44,6 +44,7 @@
 
     <section>
         <div class="corps_texte">
+            <h1>l'aprentissage du piaono pour les adultes</h1>
             <p>
                 La plupart des gens n’ont pas la chance d’avoir été inscrits par leurs parents, dès leur plus jeune âge,
                 à
@@ -108,14 +109,39 @@
             </p>
 
 
+            </div>
         </div>
 
-        <hr>
+        
         <!--Début de la partie 2 du code faite par alan (giga chad)-->
         <div class="ressources">
-            <img src="images/pubA.png"
+            <img src="images/pubA.png" id="pub"
                 alt="une pub qui dit découvrez notre libre blanc et la musique n'aura plus de secret pour vous !"
                 width="687" height="144">
+            <hr>
+            <div class="commentaires">
+                <h3>Commentaires</h3>
+                Aucun commentaire n’a été publié pour le moment !
+                <h3>Ajouter un commentaire</h3>
+
+                <form action="" name="formulaire_commentaire">
+                    <div class="colonne_forms"><label for="pseudo">Votre pseudonyme</label></div>
+                    <div class="colonne_forms"><input type="text" name="pseudo" id="pseudo"></div>
+                    <div class="colonne_forms"><label for="email">Votre adresse e-mail</label></div>
+                    <div class="colonne_forms"><input type="text" name="email" id="email"></div>
+                    <div class="colonne_forms"><label for="commentaire">Votre commentaire</label></div>
+                    <div class="colonne_forms"><textarea name="commentaire" id="commentaire" rows="8"
+                            cols=""></textarea>
+                    </div>
+                    <div class="colonne_checkbox"><input type="checkbox" name="case_a_cocher" id="case_a_cocher"
+                            class="checkbox"><label for="case_a_cocher">En ajoutant un commentaire, je reconnais avoir
+                            pris
+                            connaissance de la Politique de confidentialité et des droits dont je dispose sur mes
+                            données
+                            personnelles.</label></div>
+                    <input type="button" value="ajouter mon commentaire">
+                </form>
+            </div>
             <h2>Nos autres ressources</h2>
 
             <ul>
@@ -177,30 +203,11 @@
                 <li>Pinterest</li>
                 <li>Twitter (X)</li>
             </ul>
-            <hr>
+
         </div>
 
 
-        <div class="commentaires">
-            <h3>Commentaires</h3>
-            Aucun commentaire n’a été publié pour le moment !
-            <h3>Ajouter un commentaire</h3>
 
-            <form action="" name="formulaire_commentaire">
-                <div class="colonne_forms"><label for="pseudo">Votre pseudonyme</label></div>
-                <div class="colonne_forms"><input type="text" name="pseudo" id="pseudo"></div>
-                <div class="colonne_forms"><label for="email">Votre adresse e-mail</label></div>
-                <div class="colonne_forms"><input type="text" name="email" id="email"></div>
-                <div class="colonne_forms"><label for="commentaire">Votre commentaire</label></div>
-                <div class="colonne_forms"><textarea name="commentaire" id="commentaire" rows="8" cols=""></textarea>
-                </div>
-                <div class="colonne_checkbox"><input type="checkbox" name="case_a_cocher" id="case_a_cocher"
-                        class="checkbox"><label for="case_a_cocher">En ajoutant un commentaire, je reconnais avoir pris
-                        connaissance de la Politique de confidentialité et des droits dont je dispose sur mes données
-                        personnelles.</label></div>
-                <input type="button" value="ajouter mon commentaire">
-            </form>
-        </div>
     </section>
     <footer></footer>
 </body>
