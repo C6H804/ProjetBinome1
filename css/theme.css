@@ -1,7 +1,12 @@
 @import url(reset.css);
-:root{
+:root {
+
+    --color-nav-on: #D13161;
+    --color-nav-off: #2B384B;
+    --color-bg-ressource: #188A94;
+    --size-menu-button: 15px;
+
     /* --margin-small:5px; */
-    
 }
  /* p{
     margin:var(--margin-small);

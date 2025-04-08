@@ -28,6 +28,8 @@ main
     nos publication 
             en tete special
             texte + photo dans des carte
+            arrière plan en gradiant
+            cartes avec ombres
 
 
 contact
