@@ -37,6 +37,15 @@ p{
     display: block;
     margin: 0 auto;
 }
+.commentaires{
+    display: block;
+    margin: 0 auto;
+}
 
+.commentaires>h3 {
+    font-weight: bolder ;
+    margin-bottom: 45px;
+    font-size: 30px;
 
+}
 
