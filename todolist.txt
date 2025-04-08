@@ -1,0 +1,44 @@
+headers +bar nav 
+    logo + bouton headers
+    image + texte par dessus
+    bouton bar nav
+    fil d'arianne
+main    
+    mise en forme du texte section +
+        mise en forme paragraphe +titre
+    mise en forme image
+    marges + petite ligne violet (on s'en tape)
+    formulaire
+        titre centrer
+        message bleu dans une case
+        formulaire dans un bloc (centrer)
+        bouton stylisé + input stylisé
+        marge modifier entre les champs
+    ressourse   
+            police d'ecriture 
+            couleur
+            arriere plan 
+            marge
+            ligne 
+    temoignage
+            copie en tete ressource 
+            image horizontal avec gap entre les photos 
+            texte approprier au images
+            sliders !!!!!
+    nos publication 
+            en tete special
+            texte + photo dans des carte
+
+
+contact
+    en tete similaire index
+    nav similaire index
+    formulaire  
+        input similaire a index
+        couleur differentes rouge
+    nous situer
+        squelette good luck
+
+
+https://www.w3schools.com/css/
+
