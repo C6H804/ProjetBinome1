@@ -1,3 +1,6 @@
 @import url(theme.css);
+@import url(styleHeader.css);
 
-
+body {
+    width: 100%;
+}
