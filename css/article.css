@@ -91,3 +91,28 @@ p {
     height: 80px;
     width: 100%;
  }
+ /* probleme text align */
+ .colonne_checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   
+  
+ }
+ .colonne_checkbox>input{
+    width: fit-content;
+ }
+ .colonne_checkbox>label{
+    align-items: top;
+    
+ }
+ .add_com{
+    display: flex;
+    flex-direction: row;
+    width: 364px;
+    height: 65px;
+    align-self: flex-start;
+    background-color: var(--color-button);
+    color: white;
+    border-radius: var(--border-radius-normal);
+ }
