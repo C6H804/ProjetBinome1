@@ -104,6 +104,7 @@ p {
     width: 100%;
     margin-bottom: 1rem;
     border: 1px solid grey;
+    padding: 40px;
  }
  .form-group label {
     padding-bottom: 0.5rem;
@@ -145,4 +146,9 @@ p {
     background-color: var(--color-button);
     color: white;
 
+ }
+ .add_commentaire{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px;
  }
