@@ -5,6 +5,7 @@
 @import url(article.css);
 @import url(styleRessources.css);
 @import url(styleTemoignages.css);
+@import url(styleFooter.css);
 body {
     width: 100%;
 }
