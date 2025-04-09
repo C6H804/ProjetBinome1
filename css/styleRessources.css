@@ -8,20 +8,31 @@
 
 
 .titre-ressources {
+    line-height: 40px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
     align-items: center;
 }
 
+.titre-ressources:after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #fff;
+}
+
+
 .titre-ressources > h2 {
     color: white;
-    width: 220px;
     text-transform: capitalize;
+    white-space: nowrap;
     font-size: 1.2em;
 }
 
-.titre-ressources > h2 > strong {
+.titre-ressources > h2 > span {
     font-size: 3em;
+    display: block;
 }
 
 .titre-ressources > hr {
