@@ -4,7 +4,7 @@
 @import url(styleNav.css);
 @import url(article.css);
 @import url(styleRessources.css);
-
+@import url(styleTemoignages.css);
 body {
     width: 100%;
 }
