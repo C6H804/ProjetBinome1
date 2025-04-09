@@ -2,6 +2,7 @@
 @import url(styleHeader.css);
 @import url(styleNav.css);
 @import url(article.css);
+@import url(styleRessources.css);
 
 body {
     width: 100%;
