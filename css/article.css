@@ -43,6 +43,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -95,6 +96,7 @@ p {
  .colonne_forms>textarea{
     height: 80px;
     width: 100%;
+    border-radius: var(--border-radius-forms);
  }
  /* probleme text align */
  .colonne_checkbox{
