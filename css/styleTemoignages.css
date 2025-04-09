@@ -1,4 +1,5 @@
 .temoignages {
+    width: 100%; 
     display: flex;
     background-color: var(--color-nav-on);
     flex-direction: column;
@@ -38,9 +39,9 @@
 }
 
 .slider-images {
+    display: flex;
     overflow: auto;
     white-space: nowrap;
-    display: flex;
     flex-direction: row;
 }
 
