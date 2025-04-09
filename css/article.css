@@ -37,6 +37,13 @@ p {
 #pub {
     display: block;
     margin: 0 auto;
+    position: relative;
+    transition: transform linear 0.2s;
+}
+
+
+#pub:hover {
+    transform: translateY(-10px);
 }
 
 .container-commentaire {
@@ -74,19 +81,29 @@ p {
      display: flex;
      flex-direction: column;
      justify-content: center;
-     align-items: center;
+     
      margin-bottom: 20px;
     
 
  }
- input{
+
+ .form-control {
     width: 100%;
-    height: 30px;
+    padding: 15px 25px;
+    font-family: var(--font-family-body);
+    font-size: 16px;
+    transition: box-shadow linear .2s;
  }
+
+ .form-control:focus {
+    box-shadow: 0 0 20px rgba(13, 0, 255, 0.258);
+ }
+
 
  .form-group {
     width: 100%;
     margin-bottom: 1rem;
+    border: 1px solid grey;
  }
  .form-group label {
     padding-bottom: 0.5rem;
@@ -94,9 +111,10 @@ p {
  }
 
  .colonne_forms>textarea{
-    height: 80px;
+    height: 200px;
     width: 100%;
     border-radius: var(--border-radius-forms);
+    
  }
  /* probleme text align */
  .colonne_checkbox{
