@@ -10,7 +10,9 @@
     text-align: justify;
     margin-left: 45px;
     margin-right: 45px;
-    font-size: 20px;
+    font-size:var(--font-size-body);
+    font-style: var(--font-style-body);
+    font-family: var(--font-family-body);
     padding: 45px;
 }
 
@@ -24,6 +26,9 @@ p {
 }
 
 .corps_texte>h2 {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-title);
+    font-style: var(--font-style-title);
     font-weight: bolder;
     margin-bottom: 45px;
     font-size: 34px;
@@ -38,6 +43,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -90,15 +96,16 @@ p {
  .colonne_forms>textarea{
     height: 80px;
     width: 100%;
+    border-radius: var(--border-radius-forms);
  }
  /* probleme text align */
  .colonne_checkbox{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-   
-  
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
  }
+
  .colonne_checkbox>input{
     width: fit-content;
  }
@@ -106,13 +113,18 @@ p {
     align-items: top;
     
  }
- .add_com{
+ .btn{
     display: flex;
     flex-direction: row;
-    width: 364px;
+    width: 20%;
     height: 65px;
+    padding: 5px;
     align-self: flex-start;
+    border-radius: var(--border-radius-normal);
+    min-width: 170px;
+}
+.btn_vert{
     background-color: var(--color-button);
     color: white;
-    border-radius: var(--border-radius-normal);
+
  }
