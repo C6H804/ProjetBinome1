@@ -70,7 +70,7 @@ p {
     width:63% ;
     height: 85px;
     background-color: aqua;
-    
+    margin-bottom: 35px;
     
 }
  .colonne_forms {
@@ -147,5 +147,12 @@ p {
  .add_commentaire{
     margin-bottom: 10px;
     font-weight: bolder;
+    font-size: 30px;
+ }
+
+ h3 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-weight: bold;
     font-size: 30px;
  }
