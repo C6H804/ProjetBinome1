@@ -1,3 +1,13 @@
+.container-ressources {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 115px;
+    padding-right: 115px;
+    margin-bottom: 45px;
+}
+
 .ressources {
     display: flex;
     background-color: var(--color-bg-ressource);
