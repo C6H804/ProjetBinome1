@@ -70,7 +70,7 @@ p {
     width:63% ;
     height: 85px;
     background-color: aqua;
-    
+    margin-bottom: 35px;
     
 }
  .colonne_forms {
@@ -149,6 +149,10 @@ p {
     font-weight: bolder;
     font-size: 30px;
  }
- .corps_texte_contact{
-    margin: 50px;
+
+ h3 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-weight: bold;
+    font-size: 30px;
  }
