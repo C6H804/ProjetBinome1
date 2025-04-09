@@ -1,4 +1,5 @@
 @import url(theme.css);
+@import url(document.css);
 @import url(styleHeader.css);
 @import url(styleNav.css);
 @import url(article.css);

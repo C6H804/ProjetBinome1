@@ -12,6 +12,7 @@
     padding-left: 2%;
     padding-right: 2%;
     height: 9vw;
+    font-family: var(--font-family-title);
     border-right: 1px solid var(--color-bg-ressource);
     border-bottom: 1px solid var(--color-bg-ressource);
 }
