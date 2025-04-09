@@ -5,52 +5,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nous contacter</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png" alt="" width="111" height="93">
-        <ul>
-            <li><a href="">Accueil</a></li>
-            <li><a href="">Découvrir</a></li>
-            <li><a href="">Partitions</a></li>
-            <li><a href="">Instruments</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+        <div class="container-menu">
+            <div class="menu-logo">
+                <img src="images/logo.png"
+                    alt="logo BLANC d'une lettre M qui ressemble à une note de musique et un clavier de piano"
+                    width="111" height="93">
+            </div>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Découvrir</a></li>
+                    <li><a href="">Partitions</a></li>
+                    <li><a href="">Instruments</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-front">
+            <img src="images/piano_contact.png" alt="des mains qui joue du piano">
+            <div class="front-H1">
+                <h1>Contacter naux equipe</h1>
+            </div>
+
+            <div class="noir">
+
+            </div>
+        </div>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li>Nous contacter</li>
-        </ul>
+        
+            <div class="corps_texte-container">
+                <div class="corps_texte">
+                    <ul>
+                        <li><a title="Auccueil" href="">Accueil</a></li>
+                        <li><a title="Contact" href="">Contact</a></li>                   
+                    </ul>
+
+                
+            </div>
+            </div>
     </nav>
 
-    <section>
-        <div class="contact">
-            <h1>Nous contacter</h1>
-            <p>Pour contacter nôtre équipe, merci de compléter le formulaire suivant :</p>
+    <div class="container-commentaire">
 
-            <form action="" name="formulaire_contact">
+        <form action="" name="formulaire_commentaire" class="formulaire">
 
-                <div class="colonne_forms"><label for="nom_prenom">Votre nom et prénom :</label></div>
-                <div class="colonne_forms"><input type="text" name="nom_prenom" id="nom_prenom"></div>
-                <div class="colonne_forms"><label for="phone">Votre numéro de téléphone :</label></div>
-                <div class="colonne_forms"><input type="tel" name="phone" id="phone"></div>
-                <div class="colonne_forms"><label for="email">Votre adresse e-mail :</label></div>
-                <div class="colonne_forms"><input type="email" name="email" id="email"></div>
-                <div class="colonne_forms"><label for="message">Votre message :</label></div>
-                <div class="colonne_forms"><textarea name="message" id="message" rows="10" cols="20"></textarea></div>
-                <div class="colonne_checkbox"><input type="checkbox" class="checkbox" name="confidence" id="confidence"><label
-                        for="confidence">En validant ce formulaire, je reconnais avoir pris connaissance de la Politique
-                        de confidentialité et des droits dont je dispose sur mes données personnelles.</label></div>
+            <div class="form-group corps_texte_contact">
+                <h3 class="add_commentaire">Nous contacter</h3>
+                <p>Que vous soyez en train d’apprendre vos premiers accords ou de bosser une sonate de Chopin, on est là pour échanger avec vous ! Une question sur un cours, une suggestion de morceau, un retour à partager ? Écrivez-nous !
 
-            </form>
-            <button>Envoyer mon message</button>
+                    Remplissez le formulaire ci-dessous ou envoyez-nous un message à contact@pianiste.fr
+                    On vous répond dès qu’on a fini notre morceau (promis, on ne fait pas trop de fa dièse).</p>
 
-        </div>
-    </section>
+                <div class="colonne_forms"><label for="pseudo">Votre pseudonyme</label></div>
+                <div class="colonne_forms colonne-input"><input class="form-control" type="text" name="pseudo" id="pseudo"></div>
+                <div class="colonne_forms"><label for="email">Votre adresse e-mail</label></div>
+                <div class="colonne_forms colonne-input"><input class="form-control" type="text" name="email" id="email"></div>
+                <div class="colonne_forms"><label for="commentaire">Votre commentaire</label></div>
+                <div class="colonne_forms colonne-input"><textarea name="commentaire" id="commentaire"></textarea>
+                </div>
+
+                <div class="colonne_checkbox"><input type="checkbox" name="case_a_cocher" id="case_a_cocher"
+                        class="checkbox"><label for="case_a_cocher">En ajoutant un commentaire, je reconnais avoir
+                        pris
+                        connaissance de la Politique de confidentialité et des droits dont je dispose sur mes
+                        données
+                        personnelles.</label></div>
+                <input type="button" value="ajouter mon commentaire" class="btn btn_vert">
+        </form>
+    </div>
+        <!-- <div class="corps_texte_container">
+            <div class="corps_texte">
+                <div class="contact">
+                    <h1>Nous contacter</h1>
+                    <p>Pour contacter nôtre équipe, merci de compléter le formulaire suivant :</p>
+                    <form action="" name="formulaire_contact">
+                        <div class="colonne_forms"><label for="nom_prenom">Votre nom et prénom :</label></div>
+                        <div class="colonne_forms"><input type="text" name="nom_prenom" id="nom_prenom"></div>
+                        <div class="colonne_forms"><label for="phone">Votre numéro de téléphone :</label></div>
+                        <div class="colonne_forms"><input type="tel" name="phone" id="phone"></div>
+                        <div class="colonne_forms"><label for="email">Votre adresse e-mail :</label></div>
+                        <div class="colonne_forms"><input type="email" name="email" id="email"></div>
+                        <div class="colonne_forms"><label for="message">Votre message :</label></div>
+                        <div class="colonne_forms"><textarea name="message" id="message" rows="10" cols="20"></textarea></div>
+                        <div class="colonne_checkbox"><input type="checkbox" class="checkbox" name="confidence"
+                                id="confidence"><label for="confidence">En validant ce formulaire, je reconnais avoir pris
+                                connaissance de la Politique
+                                de confidentialité et des droits dont je dispose sur mes données personnelles.</label></div>
+                    </form>
+                    <button>Envoyer mon message</button>
+                </div>
+            </div>
+        </div> -->
+  
+    
 
 </body>
 
