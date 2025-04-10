@@ -19,6 +19,8 @@
 .pianiste {
     display: block;
     margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
 }
 
 p {
@@ -31,14 +33,49 @@ p {
     font-style: var(--font-style-title);
     font-weight: bolder;
     margin-bottom: 45px;
-    font-size: 34px;
-}
+    @media(max-width: 600px){
+        font-size: 24px;
+        }
+    @media (max-width:800px){
+        font-size: 28px;
+    }  
+        
+    }
+    
 
+    
+    }
+
+
+}
+    
+
+.ressources{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+
+
+}
 #pub {
-    display: block;
+    height: auto;
     margin: 0 auto;
-    position: relative;
+
     transition: transform linear 0.2s;
+    max-width: 801px;
+    
+    @media (min-width: 800px ) {
+       width: 687px;
+       height: 144px; 
+     } 
+     @media (max-width:800px){
+        width: 450px;
+     }
+     @media (max-width:600px){
+        width: 70vw;
+     }
+        
+
 }
 
 
