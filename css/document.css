@@ -1,9 +1,20 @@
 html {
-
 }
 
 body {
     line-height: 1.5;
+    width: 100vw;;
     font-family: var(--font-family-body);
 }
 
+
+.rick {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    @media (min-width:2000px) {
+        visibility: visible;
+        width: 100vw;
+        height: 100vw;
+    }
+}
