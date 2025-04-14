@@ -65,21 +65,3 @@
     background-color: var(--color-nav-on);
 }
 
-.corps_texte > ul {
-    display: flex;
-}
-
-.corps_texte > ul > li::before {
-    content: " > ";
-}
-
-.corps_texte > ul > li:first-of-type::before {
-    content: "";
-}
-
-.corps_texte > ul > li > a{
-    color: black;
-    margin-right: 0.5em;
-    text-decoration: none;
-    border-bottom: solid 1px black;
-}

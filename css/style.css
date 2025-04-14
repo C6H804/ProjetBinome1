@@ -1,8 +1,8 @@
 @import url(theme.css);
 @import url(document.css);
 @import url(styleHeader.css);
-@import url(styleNav.css);
 @import url(article.css);
+@import url(styleNav.css);
 @import url(styleRessources.css);
 @import url(styleTemoignages.css);
 @import url(styleFooter.css);
