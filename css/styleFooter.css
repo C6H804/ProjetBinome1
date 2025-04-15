@@ -94,7 +94,7 @@ footer>h2>span {
 
 
 footer {
-    width: 100vw;
+    width: 100%;
     padding: 1em;
 }
 
@@ -168,7 +168,6 @@ h4 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1em;
     }
 
     .container-footer-text {
@@ -177,7 +176,6 @@ h4 {
         text-align: center;
         justify-content: space-around;
         width: 100%;
-        margin: 1em 5px;
     }
 
     .map {
@@ -200,7 +198,7 @@ h4 {
         text-align: center;
         justify-content: space-around;
         width: 100%;
-        margin: 1em 5px 0em 5px;
+        margin: 0em 5px 0em 5px;
     }
 
     .map {
