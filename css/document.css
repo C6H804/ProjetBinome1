@@ -6,7 +6,8 @@ html {
 body {
     line-height: 1.5;
     width: 100vw;
-    overflow: hidden;
+    height: fit-content;
+    overflow-x: hidden;
     font-family: var(--font-family-body);
 }
 
