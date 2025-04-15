@@ -103,9 +103,9 @@ footer {
     display: flex;
     background-color: white;
     overflow: hidden;
-    width: 100%;
+    width: 95%;
     border-radius: 2em;
-    flex-direction: row;
+    flex-direction: row;;
 }
 
 .container-footer-text {
@@ -162,7 +162,7 @@ h4 {
 
 }
 
-@media screen and (max-width:800px) and (min-width:530px) {
+@media screen and (max-width:850px) and (min-width:530px) {
 
     .container-footer-maps {
         flex-direction: column;
@@ -182,7 +182,6 @@ h4 {
         width: 100%;
     }
 }
-
 
 @media screen and (max-width:530px) {
 

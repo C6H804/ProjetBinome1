@@ -129,7 +129,7 @@ p {
  }
 
  .form-control {
-    width: 100%;
+    width: 70%;
     padding: 15px 25px;
     font-family: var(--font-family-body);
     font-size: 16px;
