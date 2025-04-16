@@ -36,10 +36,12 @@ footer>h2>span {
         
     @media (max-width:530px) {
         flex-direction: column;
+        
+        
     }
 }
 
-.carte {
+.container_texte {
     max-width: 345px;
     display: flex;
     flex-direction: column;
@@ -49,12 +51,18 @@ footer>h2>span {
     
     @media (max-width:530px) {
         flex-direction: row;
-        max-width: 100%;
+        max-width: 50%;
+        justify-content: flex-start;
+        text-align: start;
+        padding-left: 20px;
+        
+
     }
 }
 
-.carte>p {
+.carte {
     background-color: white;
+    overflow: hidden;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -64,8 +72,19 @@ footer>h2>span {
     max-width: 345px;
     min-height: 80px;
     text-align: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 0px 0px 10px 10px ;
+    @media screen and (max-width:530px ) {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        max-width: auto;
+        border-radius: 0px 10px 10px 0px ;
+        height: max-content;
+        max-width: none;
+        height: fit-content;
+        width: 100%;
+        
+    }
 }
 
 .container-image {
@@ -76,6 +95,12 @@ footer>h2>span {
     overflow: hidden;
     margin: 0px;
     padding: 0px;
+    @media screen and (max-width:530px) {
+        width: 30%;
+        
+        
+        
+    }
 
 }
 
@@ -197,6 +222,7 @@ h4 {
         text-align: center;
         justify-content: space-around;
         width: 100%;
+        height: 100%;
         margin: 0em 5px 0em 5px;
     }
 
