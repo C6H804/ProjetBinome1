@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="guillaume_alan">
+    <meta name="description" content="contact">
+    <meta name="keywords" content="contact,prise de rendez vous">
+    <title>nous contacter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header role="banner">
+        <div class="container-menu">
+            <div class="menu-logo">
+                <img src="images/logo.png"
+                    alt="logo BLANC d'une lettre M qui ressemble à une note de musique et un clavier de piano"
+                    width="111" height="93">
+            </div>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Découvrir</a></li>
+                    <li><a href="">Partitions</a></li>
+                    <li><a href="">Instruments</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-front">
+            <img src="images/piano_contact.png" alt="des mains qui joue du piano">
+            <div class="front-H1">
+                <h1>Décovrir le piaono</h1>
+            </div>
+
+            <div class="noir">
+
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+
+        <ul class="breadcrumb">
+            <li><a title="Auccueil" href="">Accueil</a></li>
+            <li> Découvrir</li>
+        </ul>
+        <div class="container-card" id="container-card">
+            <!-- <div class="wrap-card">
+                <div class="_card">
+                    <div class="_card-thumb">
+                        <img src="images/carte1.png" class="card-image" alt="">
+                    </div>
+                    <div class="_card-text">
+                        <p class="card-description">Débuter le piano dans un orchestre</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrap-card">
+                <div class="_card">
+                    <div class="_card-thumb">
+                        <img src="images/carte1.png" class="card-image" alt="">
+                    </div>
+                    <div class="_card-text">
+                        <p class="card-description">Débuter le piano dans un orchestre</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <footer>
+        <h2>espace <span>vide</span></h2>
+    </footer>
+
+    <script>
+        let dataSet = [
+            ["Débuter le piano dans un orchestre", "images/carte1.png", "Un homme joue du piano sur une scène"],
+            ["Débuter le piano à l'âge de 3 ans : une mauvaise idée ?", "images/carte2.png", "une petite fille joue du piano"],
+            ["Peur de faire du piano de rue ? Le guide pour se lancer", "images/carte3.png", "un homme joue dans la rue du piano"]
+        ];
+        fillCards(200);
+        function fillCards(ammount) {
+            const Target = document.getElementById("container-card");
+            for (i = 0; i < ammount; i++) {
+                addCard(i, Target);
+            }
+        }
+        function addCard(id, parent) {
+            id = Math.round(id % 3);
+            let wrap = document.createElement("div");
+            wrap.className = "wrap-card";
+            let card = document.createElement("div");
+            card.className = "_card";
+            let cardThumb = document.createElement("div");
+            cardThumb.className = "_card-thumb";
+            let cardText = document.createElement("div");
+            cardText.className = "_card-text";
+            let cardImage = document.createElement("img");
+            cardImage.className = "card-image";
+            let cardDescription = document.createElement("p");
+            cardDescription.className = "card-description";
+
+            cardImage.src = dataSet[id][1];
+            cardImage.alt = dataSet[id][2];
+            cardDescription.innerHTML = dataSet[id][0];
+
+            cardThumb.appendChild(cardImage);
+            cardText.appendChild(cardDescription);
+            card.appendChild(cardThumb);
+            card.appendChild(cardText);
+            wrap.appendChild(card);
+            parent.appendChild(wrap);
+        }
+    </script>
+</body>
+
+</html>

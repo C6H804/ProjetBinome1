@@ -6,6 +6,7 @@
 @import url(styleRessources.css);
 @import url(styleTemoignages.css);
 @import url(styleFooter.css);
+@import url(_cards.css);
 body {
     width: 100%;
 }
