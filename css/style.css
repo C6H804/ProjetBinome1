@@ -7,6 +7,7 @@
 @import url(styleTemoignages.css);
 @import url(styleFooter.css);
 @import url(_cards.css);
+@import url(connection_modal.css);
 body {
     width: 100%;
 }
