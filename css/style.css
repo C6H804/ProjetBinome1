@@ -6,6 +6,14 @@
 @import url(styleRessources.css);
 @import url(styleTemoignages.css);
 @import url(styleFooter.css);
+@import url(_cards.css);
+@import url(modal_share.css);
 body {
     width: 100%;
+}
+.hidden{
+    display: none;
+}
+.shown{
+    display: block;
 }
