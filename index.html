@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="guillaume_alan">
     <meta name="description" content="apprentissage_du_piano">
-    <meta  name="keywords" content="piano,cours,Instruments">
+    <meta name="keywords" content="piano,cours,Instruments">
     <title>Apprentissage Piano Adulte</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,11 +24,11 @@
                     width="111" height="93"></div>
             <div class="menu-content">
                 <ul class="desktop_header">
-                    <li><a class="desktop_header"  title="Page d'accueil" href="">Accueil</a></li>
-                    <li><a class="desktop_header"  title="Découvrez nous" href="">Découvrir</a></li>
-                    <li><a class="desktop_header"  title="Nos Partitions" href="">Partitions</a></li>
-                    <li><a class="desktop_header"  title="Nos instrument" href="">Instruments</a></li>
-                    <li><a class="desktop_header"  title="Nous contacter" href="contact.html">Contact</a></li>
+                    <li><a class="desktop_header" title="Page d'accueil" href="">Accueil</a></li>
+                    <li><a class="desktop_header" title="Découvrez nous" href="">Découvrir</a></li>
+                    <li><a class="desktop_header" title="Nos Partitions" href="">Partitions</a></li>
+                    <li><a class="desktop_header" title="Nos instrument" href="">Instruments</a></li>
+                    <li><a class="desktop_header" title="Nous contacter" href="contact.html">Contact</a></li>
                 </ul>
                 <div class="logo_burger">
                 </div>
@@ -45,8 +45,8 @@
             <div class="noir"></div>
         </div>
     </header>
-    
-      
+
+
 
     <nav role="navigation">
         <div class="sommaire" id="sommaire">
@@ -91,8 +91,27 @@
                 <span class="social">partager sur pinterest</span>
             </div>
         </div>
-
     </div>
+
+
+    <button class="toTheTopBtn hidden" onclick="scrollToTop()">↑</button>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: "smooth"});
+        }
+        addEventListener("scroll", function() {
+            const toTheTopBtn = document.querySelector(".toTheTopBtn");
+            if (window.scrollY > 50) {
+                toTheTopBtn.classList.remove("hidden");
+            } else {
+                toTheTopBtn.classList.add("hidden");
+            }
+        })
+        
+
+    </script>
+
+
     <!-- <img src="images/HA_HA_HA_HA.webp" class="rick" alt="NEVER GONNA GIVE YOU UP" width="0" height="0"> -->
     <section>
         <ul class="breadcrumb">
@@ -214,9 +233,11 @@
                 <div class="form-group">
                     <h3 class="add_commentaire">Ajouter un commentaire</h3>
                     <div class="colonne_forms"><label for="pseudo">Votre pseudonyme</label></div>
-                    <div class="colonne_forms colonne-input"><input class="form-control" type="text" name="pseudo" id="pseudo"></div>
+                    <div class="colonne_forms colonne-input"><input class="form-control" type="text" name="pseudo"
+                            id="pseudo"></div>
                     <div class="colonne_forms"><label for="email">Votre adresse e-mail</label></div>
-                    <div class="colonne_forms colonne-input"><input class="form-control" type="text" name="email" id="email"></div>
+                    <div class="colonne_forms colonne-input"><input class="form-control" type="text" name="email"
+                            id="email"></div>
                     <div class="colonne_forms"><label for="commentaire">Votre commentaire</label></div>
                     <div class="colonne_forms colonne-input"><textarea name="commentaire" id="commentaire"></textarea>
                     </div>
@@ -335,8 +356,8 @@
             </div>
         </div>
     </footer>
-    
-    
+
+
 </body>
 
 

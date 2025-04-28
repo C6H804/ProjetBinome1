@@ -24,5 +24,6 @@ body {
     font-size: 2.8em;
     border: solid 2px var(--black);
     background-color: var(--white);
-    color: var(--black)
+    color: var(--black);
+    cursor: pointer;
 }
