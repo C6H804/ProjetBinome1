@@ -30,7 +30,7 @@
     grid-template-rows: auto auto;
     grid-template-columns: 1fr;
     gap: 0px;
-    background-color: white;
+    background-color: var(--white);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
     border-radius: 1em;
     max-width: 340px;

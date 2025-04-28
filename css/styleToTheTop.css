@@ -1,0 +1,19 @@
+.toTheTopBtn {
+    position : fixed;
+    bottom: 1em;
+    left: 1em;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    font-weight: bold;
+    color: var(--black);
+    background-color: var(--white);
+    border: solid 2px var(--black);
+    border-radius: 100%;
+    cursor: pointer;
+}

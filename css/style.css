@@ -8,6 +8,9 @@
 @import url(styleFooter.css);
 @import url(_cards.css);
 @import url(modal_share.css);
+@import url(darkmode.css);
+@import url(styleToTheTop.css);
+
 body {
     width: 100%;
 }
@@ -15,5 +18,5 @@ body {
     display: none;
 }
 .shown{
-    display: block;
+    display: flex;
 }
