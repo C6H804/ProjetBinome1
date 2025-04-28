@@ -21,7 +21,7 @@
 .modal_content_header{
     display: flex;
     justify-content: space-between;
-    color: #000;
+    color: var(--black);
     padding: 1em;
 }
 .modal_content_body{

@@ -14,7 +14,7 @@ footer>h2 {
 }
 
 footer>h2 {
-    color: white;
+    color: var(--white);
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -62,7 +62,7 @@ footer>h2>span {
 }
 
 .carte {
-    background-color: white;
+    background-color: var(--white);
     overflow: hidden;
     font-weight: bold;
     display: flex;
@@ -129,7 +129,7 @@ footer {
 
 .container-footer-maps {
     display: flex;
-    background-color: white;
+    background-color: var(--white);
     overflow: hidden;
     width: 95%;
     border-radius: 2em;

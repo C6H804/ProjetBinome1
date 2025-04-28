@@ -8,6 +8,8 @@
 @import url(styleFooter.css);
 @import url(_cards.css);
 @import url(modal_share.css);
+@import url(darkmode.css);
+
 body {
     width: 100%;
 }
