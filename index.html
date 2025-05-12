@@ -52,12 +52,6 @@
 
     <nav role="navigation">
         <div class="sommaire" id="sommaire">
-            <a href="#sommaire">Sommaire</a>
-            <a href="">Débuter à l'âge adulte</a>
-            <a href="">Le solfège</a>
-            <a href="">Autres ressources</a>
-            <a href="">Témoignages</a>
-            <a href="">Partager</a>
         </div>
         <!-- le fil d'arianne doit aussi avoir le css du corps de texte appliqué -->
     </nav>
@@ -77,8 +71,36 @@
                 }
             }
         </script>
-        <button class="darkThemeSwitch off" id="darkThemeSwitch" onclick="darkSwitch()">☀</button>
+        <button class="darkThemeSwitch off" id="darkThemeSwitch" onclick="darkSwitch()">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><circle cx="12" cy="12" fill="currentColor" r="5"/>
+                <path d="M21,13H20a1,1,0,0,1,0-2h1a1,1,0,0,1,0,2Z" fill="currentColor"/>
+                <path d="M4,13H3a1,1,0,0,1,0-2H4a1,1,0,0,1,0,2Z" fill="currentColor"/>
+                <path d="M17.66,7.34A1,1,0,0,1,17,7.05a1,1,0,0,1,0-1.41l.71-.71a1,1,0,1,1,1.41,1.41l-.71.71A1,1,0,0,1,17.66,7.34Z" fill="currentColor"/>
+                <path d="M5.64,19.36a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.41L5.64,17a1,1,0,0,1,1.41,1.41l-.71.71A1,1,0,0,1,5.64,19.36Z" fill="currentColor"/>
+                <path d="M12,5a1,1,0,0,1-1-1V3a1,1,0,0,1,2,0V4A1,1,0,0,1,12,5Z" fill="currentColor"/>
+                <path d="M12,22a1,1,0,0,1-1-1V20a1,1,0,0,1,2,0v1A1,1,0,0,1,12,22Z" fill="currentColor"/>
+                <path d="M6.34,7.34a1,1,0,0,1-.7-.29l-.71-.71A1,1,0,0,1,6.34,4.93l.71.71a1,1,0,0,1,0,1.41A1,1,0,0,1,6.34,7.34Z" fill="currentColor"/>
+                <path d="M18.36,19.36a1,1,0,0,1-.7-.29L17,18.36A1,1,0,0,1,18.36,17l.71.71a1,1,0,0,1,0,1.41A1,1,0,0,1,18.36,19.36Z" fill="currentColor"/>
+            </svg>
+        </button>
     </div>
+    <button class="toTheTopBtn hidden" onclick="scrollToTop()">
+        <svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z" fill="currentColor"/><path d="M0 0h48v48h-48z" fill="none"/></svg>
+    </button>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: "smooth"});
+        }
+        addEventListener("scroll", function() {
+            const toTheTopBtn = document.querySelector(".toTheTopBtn");
+            if (window.scrollY > 50) {
+                toTheTopBtn.classList.remove("hidden");
+            } else {
+                toTheTopBtn.classList.add("hidden");
+            }
+        })
+    </script>
+
 
 
     <div class="modal_share hidden">
@@ -96,25 +118,9 @@
     </div>
 
 
-    <button class="toTheTopBtn hidden" onclick="scrollToTop()">↑</button>
-    <script>
-        function scrollToTop() {
-            window.scrollTo({top: 0, behavior: "smooth"});
-        }
-        addEventListener("scroll", function() {
-            const toTheTopBtn = document.querySelector(".toTheTopBtn");
-            if (window.scrollY > 50) {
-                toTheTopBtn.classList.remove("hidden");
-            } else {
-                toTheTopBtn.classList.add("hidden");
-            }
-        })
-        
+    
 
-    </script>
-
-
-    <!-- <img src="images/HA_HA_HA_HA.webp" class="rick" alt="NEVER GONNA GIVE YOU UP" width="0" height="0"> -->
+    <img src="images/HA_HA_HA_HA.webp" class="rick" alt="NEVER GONNA GIVE YOU UP" width="0" height="0">
     <section>
         <ul class="breadcrumb">
             <li><a title="Auccueil" href="">Accueil</a></li>
@@ -367,6 +373,7 @@
     </footer>
     
     <script src="exo_binome.js"></script>
+    <script src="loadH2.js"></script>
 </body>
 
 
