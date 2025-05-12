@@ -15,7 +15,7 @@ function messageSpecial(){
         return;
     }        
     }
-
+// messageAffiche definie en faux en status de base passe en vrai apres alert
 // saut de page a retirer je sais pas comment faire au moment du click like
 
 

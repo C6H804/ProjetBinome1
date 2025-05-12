@@ -237,3 +237,6 @@ p {
     box-shadow: none;
     transform: none;
 }
+.compteur {
+    margin-left: 20px;
+}
