@@ -1,5 +1,6 @@
 const likeCount = document.querySelector(".compteur");
 let like = 0;
+let messageAffiche = false;
 
 function btn_like(){
     like++;
@@ -8,11 +9,13 @@ function btn_like(){
     messageSpecial(); 
 }
 function messageSpecial(){
-    if (like >5){
+    if (like >5 && !messageAffiche){
         alert("Vous aimez vraiment cet article !");
+        messageAffiche =true;
         return;
+    }        
     }
-}
+
 // saut de page a retirer je sais pas comment faire au moment du click like
 
 
