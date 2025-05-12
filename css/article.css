@@ -229,3 +229,11 @@ p {
     display: flex;
     justify-content: flex-start;
 }
+#btnLike {
+    margin-left: 70px;
+}
+#btnLike:active {
+    outline: none;
+    box-shadow: none;
+    transform: none;
+}
