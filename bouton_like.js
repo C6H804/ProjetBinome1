@@ -2,7 +2,8 @@ const likeCount = document.querySelector(".compteur");
 let like = 0;
 let messageAffiche = false;
 
-function btn_like(){
+function btn_like(e){
+    e.preventDefault();
     like++;
     console.log(like);
     document.querySelector(".compteur").textContent = like; 
